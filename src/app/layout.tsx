@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Nunito, Playfair_Display } from "next/font/google";
 import "./ui/globals.css";
 import { StrictMode } from "react";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const nunito = Nunito({
   subsets: ["latin"],

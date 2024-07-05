@@ -1,2 +1,4 @@
 # Ignore the specific file
 src/app/ui/table_pagination.tsx
+
+src/app/layout.tsx
